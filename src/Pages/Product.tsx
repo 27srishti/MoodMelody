@@ -257,7 +257,7 @@ const product = () => {
 					capitalize"
             >
               {/* Header */}
-              <span>scheduled lessons</span>
+              <span>Created Song</span>
               <button className="ml-2">
                 <svg className="h-5 w-5 fill-current" viewBox="0 0 256 512">
                   <path
@@ -275,13 +275,20 @@ const product = () => {
                 src="https://cdni.iconscout.com/illustration/premium/thumb/empty-state-2130362-1800926.png"
                 alt=" empty schedule"
               />
-              <span className="font-bold mt-8">Your schedule is empty</span>
+              <span className="font-bold mt-8">Create Your 1st Song Now</span>
               <span className="text-purple-500">
-                Make your first appointment
+               Have fun!
               </span>
-              <button className="mt-8 bg-purple-800 rounded-lg py-2 px-4">
-                Find a Job
-              </button>
+              <button className="relative px-5 py-2 mt-2 overflow-hidden font-semibold text-gray-600  border border-gray-100 rounded-lg shadow-inner group">
+                      <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease" />
+                      <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease" />
+                      <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease" />
+                      <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease" />
+                      <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-gray-900 opacity-0 group-hover:opacity-100" />
+                      <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">
+                        Export
+                      </span>
+                    </button>
             </div>
           </div>
         </div>
